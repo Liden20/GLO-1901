@@ -8,3 +8,5 @@
 !/README.md
 !/gobblet.py
 !/.gitignore
+
+*.bundle
