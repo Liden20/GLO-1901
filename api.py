@@ -151,5 +151,6 @@ if __name__ == '__main__':
     _id, plateau, joueurs = débuter_partie(idul, secret)
     print(_id, plateau, joueurs)
     print('#'*30)
-    _id, plateau, joueurs = récupérer_partie(idul, secret)
+    _id, plateau, joueurs = récupérer_partie(_id, idul, secret)
     print('#'*30)
+    
